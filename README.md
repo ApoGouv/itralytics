@@ -1,12 +1,12 @@
 <h1 align="center">
   <br>
-  <img src="https://github.com/ApoGouv/itralytics/blob/master/client/src/images/logos/logo-itralytics.png" alt="iTrAlytics" width="200">
+  <img src="https://github.com/ApoGouv/itralytics/blob/main/client/src/images/logos/logo-itralytics.png" alt="iTrAlytics" width="200">
   <br>
   Get to know your users!
   <br>
 </h1>
 
-![screenshot](https://github.com/ApoGouv/itralytics/blob/master/client/src/images/itralytics.gif)
+![screenshot](https://github.com/ApoGouv/itralytics/blob/main/client/src/images/itralytics.gif)
 
 > This project was part of my MSc thesis, entitled: "Interactive Web Analytics Reporting Dashboard for Enterprise Business - integrating Google's Web Tools to a one-stop reporting interface".
  
