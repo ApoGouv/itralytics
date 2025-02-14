@@ -1,0 +1,213 @@
+/* iTrAlytics Styles */
+
+
+/* ****************
+ START Helpers
+ ****************** */
+.padding-15{
+    padding: 15px;
+}
+
+.font-16 {
+    font-size: 16px;
+}
+/* ****************
+ END Helpers
+ ****************** */
+
+
+/* ****************
+ START Header
+ ****************** */
+nav .brand-logo {
+    position: relative;
+    color: #fff;
+    display: inline-block;
+    font-size: 2.1rem;
+    padding: 10px 18px 0 35px;
+    max-height: 63px;
+}
+
+#profile-options {
+    overflow-y: inherit;
+    background: none;
+    min-width: 110px;
+}
+
+#profile-options li > a{
+    font-size: 16px;
+    color: #ffffff;
+    display: inline-block;
+    line-height: 16px;
+    padding: 14px 10px;
+    width: 100%;
+}
+
+#profile-options li > a > i{
+    float: none;
+    margin: 0 5px 0 5px;
+}
+
+
+
+
+/* ****************
+ END Header
+ ****************** */
+
+
+/* ****************
+ START Landing
+ ****************** */
+.main-title{
+    font-size: 5rem;
+    font-weight: 600;
+}
+
+.sub-title {
+
+}
+
+/* ****************
+ END Landing
+ ****************** */
+
+/* ****************
+ START Sidebar
+ ****************** */
+.side-nav {
+    width: 150px;
+}
+
+.side-nav li>a {
+    padding: 0px 15px;
+}
+
+#slide-out .header{
+    height: 64px;
+}
+
+/* ****************
+ END Sidebar
+ ****************** */
+
+/* ****************
+ START Configure Reports Params form
+ ****************** */
+input[type=text]:not(.browser-default) {
+    margin: 0;
+    padding-left: 15px;
+    border-bottom: none;
+}
+
+input[type=text]:not(.browser-default):focus:not([readonly]){
+    border-bottom: none;
+}
+
+.dateRange{
+    width: 100% !important;
+}
+
+.rw-dropdown-list-input{
+    height: 3rem !important;
+}
+
+label {
+    font-size: 1rem !important;
+}
+/* ****************
+ END Configure Reports Params form
+ ****************** */
+
+/* ****************
+ START RealTimeDisplay
+ ****************** */
+.rtd-total {
+    border-radius: 50%;
+    width: 95px;
+    font-size: 32px;
+    color: #ff9801;
+    border: 2px solid #27938d;
+    margin: 0 auto;
+}
+.rtd-total span {
+    text-align: center;
+    line-height: 95px;
+}
+
+/* target the first 2 child divs of .devices */
+.devices div:nth-child(-n+2) {
+    border-right: 1px solid #27938d;
+}
+
+.rtd-device {
+    color: #ff9801;
+    font-size: 32px;
+}
+
+.fa-stack.desktop,
+.fa-stack.tablet,
+.fa-stack.mobile{
+    width: 100px;
+    height: 90px;
+}
+
+.fa-stack.desktop{
+    line-height: 82px;
+}
+
+.fa-stack.tablet{
+    line-height: 83px;
+}
+
+.fa-stack.mobile{
+    line-height: 100px;
+}
+
+.fa-stack.desktop .fa-stack-2x,
+.fa-stack.tablet .fa-stack-2x{
+   font-size: 90px;
+}
+
+.fa-stack.mobile .fa-stack-2x{
+    font-size: 100px;
+}
+
+
+
+
+
+/* ****************
+ END RealTimeDisplay
+ ****************** */
+
+
+/* ****************
+ START footer
+ ****************** */
+.nav-footer {
+    height: 175px;
+    line-height: 175px;
+    padding: 0px 15px 0 15px;
+}
+
+.nav-footer a {
+    max-height: 175px;
+}
+
+.nav-footer .itrust a{
+    padding: 30px 0;
+}
+
+.nav-footer .cubedesigns .logo{
+    width: 150px;
+    height: 165px;
+}
+
+.referrals p > a {
+    margin: 0 5px;
+}
+
+/* ****************
+ END footer
+ ****************** */

@@ -1,0 +1,16 @@
+/**
+ * File    : profilesReducer.js
+ * Project : iTrAlytics
+ */
+import { FETCH_PROFILES } from '../actions/types';
+
+
+export default function(state = null, action) {
+  switch (action.type){
+    case FETCH_PROFILES:
+      // '' is a fallsy value
+      return action.payload || false;
+    default:
+      return state;
+  }
+}

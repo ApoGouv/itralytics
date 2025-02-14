@@ -1,0 +1,48 @@
+{
+  "name": "itralytics",
+  "version": "1.0.0",
+  "description": "Interactive Web Analytics Reporting Dashboard",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ApoGouv/itralytics.git"
+  },
+  "author": "Apostolos Gouvalas",
+  "license": "MIT",
+  "private": true,
+  "engines": {
+    "node": "10.15.0",
+    "yarn": "1.13.0"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "server": "nodemon index.js",
+    "client": "( cd ./client && yarn start)",
+    "dev": "concurrently \"yarn server\" \"yarn client\"",
+    "client-install": "(cd ./client && yarn install)",
+    "client-build": "(cd ./client && yarn run build)",
+    "heroku-postbuild": "YARN_PRODUCTION=false yarn run client-install && yarn run client-build"
+  },
+  "dependencies": {
+    "axios": "^0.17.0",
+    "body-parser": "^1.18.2",
+    "concurrently": "^3.5.0",
+    "connect-mongo": "^2.0.0",
+    "cookie-session": "^2.0.0-beta.3",
+    "express": "^4.16.2",
+    "express-session": "^1.15.6",
+    "googleapis": "^22.2.0",
+    "lodash": "^4.17.4",
+    "mocha": "^4.0.1",
+    "mongoose": "^4.12.4",
+    "morgan": "^1.9.1",
+    "passport": "^0.4.0",
+    "passport-google-oauth20": "^1.0.0",
+    "request": "^2.83.0",
+    "request-promise-native": "^1.0.5",
+    "socket.io": "^2.0.4"
+  },
+  "devDependencies": {
+    "prettier": "^1.7.4"
+  }
+}
